@@ -57,7 +57,7 @@ for index, url in enumerate(urls):
     draw = ImageDraw.Draw(image)
 
     # Define a fonte padrão e a cor do texto
-    font = ImageFont.load_default()  # Usar a fonte padrão
+    font = ImageFont.load_default(size=20)  # Usar a fonte padrão
     text_color = (240, 0, 0)  # Cor do texto (vermelho)
 
     # Extrai a parte da URL até o primeiro '/'
@@ -80,3 +80,5 @@ for index, url in enumerate(urls):
 
 # Fecha o navegador
 driver.quit()
+
+
