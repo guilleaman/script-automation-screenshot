@@ -1,0 +1,1 @@
+([('app', '/Users/amandacardoso/Downloads/scriptVini/dist/app', 'EXECUTABLE')],)
